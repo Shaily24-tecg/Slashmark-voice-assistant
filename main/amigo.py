@@ -45,7 +45,7 @@ if __name__ == '__main__':
             results = wikipedia.summary(query, sentences=2)
             speak("According to wikipedia")
             speak(results)
-        elif 'are you' in query:
+        elif 'how are you' in query:
             speak("I am amigo developed by Shaily")
         elif 'open youtube' in query:
             speak("opening youtube")
