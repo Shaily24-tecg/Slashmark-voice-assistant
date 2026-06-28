@@ -35,8 +35,7 @@ def take_command():
 
 if __name__ == '__main__':
 
-    speak("Amigo assistance activated ")
-    speak("How can i help you")
+    speak("Amigo assistance activated, How can i help you")
     while True:
         query = take_command().lower()
         if 'wikipedia' in query:
