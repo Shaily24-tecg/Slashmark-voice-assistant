@@ -106,8 +106,8 @@ def process(query):
 # =========================
 if __name__ == "__main__":
 
-    print("\n **************************************************")   
-    speak("Amigo assistant activated. Ready for commands.\n")
+    print("\n ****************************************************************")   
+    speak("Amigo assistant activated. Hello Shaily, how can I help you?\n")
 
     while True:
         query = take_command()
