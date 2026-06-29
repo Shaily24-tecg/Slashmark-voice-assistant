@@ -67,26 +67,26 @@ def process(query):
         speak(result)
 
     elif "open youtube" in query:
-        speak("Opening YouTube")
+        speak("Ok I am opening YouTube")
         webbrowser.open("https://youtube.com")
 
     elif "open google" in query:
-        speak("Opening Google")
+        speak("Ok I am opening Google")
         webbrowser.open("https://google.com")
 
     elif "open github" in query:
-        speak("Opening GitHub")
+        speak("Ok I am opening GitHub")
         webbrowser.open("https://github.com")
 
     elif "open stackoverflow" in query:
-        speak("Opening StackOverflow")
+        speak("Ok I am opening StackOverflow")
         webbrowser.open("https://stackoverflow.com")
 
     elif "who are you" in query:
         speak("I am Amigo, your voice assistant")
 
     elif "open whatsapp" in query:
-        speak("Opening WhatsApp")
+        speak("Ok I am opening WhatsApp")
         path = "C:\\Users\\shail\\AppData\\Local\\WhatsApp\\WhatsApp.exe"
         try:
             os.startfile(path)
@@ -94,7 +94,7 @@ def process(query):
             speak("WhatsApp not found")
 
     elif "exit" in query or "sleep" in query:
-        speak("Shutting down")
+        speak("Ok I am shutting down")
         exit()
 
     else:
@@ -106,7 +106,8 @@ def process(query):
 # =========================
 if __name__ == "__main__":
 
-    speak("Amigo assistant activated. Ready for commands.")
+    print("\n **************************************************")   
+    speak("Amigo assistant activated. Ready for commands.\n")
 
     while True:
         query = take_command()
