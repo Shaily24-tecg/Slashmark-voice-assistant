@@ -40,6 +40,7 @@
 2. Run the `amigo.py` file.
 3. Speak a supported voice command when prompted.
 4. The assistant will recognize your voice and perform the requested action.
+5. You need to good internet connection for running this project.
 
 To add your own custom command, include another `elif` block inside the main command handler:
 
